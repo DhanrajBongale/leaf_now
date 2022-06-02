@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'index.css' %}">
+    <title>Leaf Now</title>
+</head>
+<body>
+    <h2>Leaf Now</h2>
+
+    <div class="cnt">
+<nav>
+    <ul>
+        <li><a href="{% url 'D_app:buy' %}">BUY</a></li>
+        <li><a href="{% url 'D_app:sell' %}">SELL</a></li>
+        <li><a href="{% url 'D_app:donate' %}">DONATE</a></li>
+        <li><a href="{% url 'D_app:log_out' %}">LOGOUT</a></li>
+    </ul>
+    
+</nav>
+</div><br><br>  
+<img src="{% static 'leaf.jpg' %}" alt="">
+</body>
+</html>

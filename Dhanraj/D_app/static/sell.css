@@ -1,0 +1,19 @@
+body{
+    font-family: Arial, Helvetica, sans-serif4;
+    background-color: grey;
+}
+.cnt{
+    font-size: larger;
+
+}
+h2
+{
+    text-align: center;
+    border-bottom: 1px black solid;
+}
+label{
+    font-weight: bold;
+}
+img{
+    width: 40%;
+}

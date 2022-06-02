@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'buy.css' %}">
+    <title>Buy plants</title>
+</head>
+<h2>Buy Items</h2>
+<body>
+    <tr>
+        <td>
+        <figure>
+            <img src="{% static '1.jpg' %}" alt="image"><br>
+            <figcaption>200Rs.<button>BUY</button></figcaption>
+        </figure>
+    </td>
+    <td>
+        <figure>
+            <img src="{% static '2.jpg' %}" alt="image"><br>
+            <figcaption>150Rs.<button>BUY</button></figcaption>
+        </figure>
+    </td>
+    <td>
+        <figure>
+            <img src="{% static '3.jpg' %}" alt="image"> <br>
+            <figcaption>300Rs.<button>BUY</button></figcaption>
+        </figure>
+    </td>
+</tr>
+<tr>
+    <td>
+    <figure>
+        <img src="{% static '4.jpg' %}" alt="image"><br>
+        <figcaption>200Rs.<button>BUY</button></figcaption>
+    </figure>
+</td>
+<td>
+    <figure>
+        <img src="{% static '5.jpg' %}" alt="image"><br>
+        <figcaption>150RS.<button>BUY</button></figcaption>
+    </figure>
+</td>
+<td>
+    <figure>
+        <img src="{% static '6.jpg' %}" alt="image"> <br>
+        <figcaption>150Rs.<button>BUY</button></figcaption>
+    </figure>
+</td>
+    </tr>
+</table>
+</body>
+</html>

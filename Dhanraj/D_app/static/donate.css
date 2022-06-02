@@ -1,0 +1,71 @@
+body{
+    background-image: url('ll.jpg');
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    background-color: grey;
+    text-align: center;
+}
+
+#rzp-button1 {
+    background-color: #e91e63;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    font-size: 15px !important;
+    text-transform: uppercase;
+    font-weight: 550;
+    line-height: 30px;
+    text-align: center;
+    padding: 7px 12px;
+    margin-top: 25px;
+    border: 2px solid transparent;
+    background: #e91e63;
+    box-shadow: inset 5px 5px 10px #5d0c28, inset -5px -5px 10px #ff309e;
+    border-radius: 30px !important;
+}
+
+#rzp-button1:hover {
+    background-color: #b60c45;
+}
+
+#button {
+    display: inline-block;
+    background-color: #877ba1;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+#button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+}
+
+#button:hover {
+    cursor: pointer;
+    background-color: #333;
+}
+
+#button:active {
+    background-color: #555;
+}
+
+#button.show {
+    opacity: 1;
+    visibility: visible;
+}
+
